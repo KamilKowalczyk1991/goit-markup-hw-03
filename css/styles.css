@@ -88,8 +88,6 @@ img {
 
 .benefits {
   padding: 120px 0;
-  overflow: hidden;
-  display: none;
 }
 
 .benefits-list {
@@ -287,4 +285,8 @@ address .link {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+
+.hide {
+  overflow: hidden;
 }

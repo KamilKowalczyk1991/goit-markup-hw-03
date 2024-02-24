@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  width: 1440px;
 }
 
 ul,
@@ -13,14 +12,89 @@ p {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
+/* MAIN STYLES */
+
+.header-container {
+  display: flex;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+
+menu > .link {
+  padding: 24px 0;
+}
+
+.address-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.benefits-list {
+  display: flex;
+  margin: 120px 156px;
+  gap: 24px;
+}
+
+p {
+  margin-top: 8px;
+}
+
+img {
+  display: block;
+}
+
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
+}
+
+.hero > .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 48px;
-  height: 600px;
+}
+
+.hero-header {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+  max-width: 496px;
 }
 
 .our-team {
@@ -73,6 +147,7 @@ p {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  margin-right: 72px;
 }
 
 .logo-top {
@@ -110,15 +185,6 @@ address .link {
   font-style: normal;
 }
 
-.hero-header {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-  text-align: center;
-}
-
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -131,6 +197,10 @@ address .link {
 
   padding: 16px 32px;
   border-radius: 4px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .btn:hover {
@@ -174,41 +244,4 @@ footer .article {
 
 .card {
   background-color: #ffffff;
-}
-
-header {
-  display: flex;
-  margin: 24px 0;
-}
-
-.nav {
-  display: flex;
-}
-
-.address {
-  display: flex;
-}
-
-.header-list {
-  display: flex;
-  gap: 40px;
-}
-
-.address-list {
-  display: flex;
-  gap: 40px;
-}
-
-.hide {
-  display: none;
-}
-
-.benefits-list {
-  display: flex;
-  margin: 120px 156px;
-  gap: 24px;
-}
-
-p {
-  margin-top: 8px;
 }

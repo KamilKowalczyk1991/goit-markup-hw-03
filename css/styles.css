@@ -56,16 +56,6 @@ menu > .link {
   align-items: center;
 }
 
-.hide {
-  display: none;
-}
-
-.benefits-list {
-  display: flex;
-  margin: 120px 156px;
-  gap: 24px;
-}
-
 p {
   margin-top: 8px;
 }
@@ -97,24 +87,28 @@ img {
   max-width: 496px;
 }
 
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+}
+
 .our-team {
   background: #f4f4fd;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 732px;
-}
-
-.our-team > .section-header {
-  margin-top: 120px;
+  padding: 120px 0;
 }
 
 .team-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 72px;
 }
 
 .portfolio {
@@ -147,7 +141,7 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  margin-right: 72px;
+  margin-right: 76px;
 }
 
 .logo-top {
@@ -220,6 +214,7 @@ address .link {
   line-height: 1.5rem;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .article {
@@ -236,12 +231,27 @@ address .link {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 footer .article {
   color: #f4f4fd;
 }
 
-.card {
+.team-card {
   background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-card-text {
+  padding: 32px 16px;
+}
+
+.team-card .section-subheader {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.team-card .article {
+  text-align: center;
 }

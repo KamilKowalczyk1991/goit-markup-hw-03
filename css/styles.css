@@ -14,13 +14,14 @@ p {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* MAIN STYLES */
 
 .header-container {
   display: flex;
-  padding: 24px 0;
 }
 
 .container {
@@ -31,7 +32,6 @@ ul {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .nav {
@@ -49,7 +49,7 @@ ul {
   padding: 24px 0;
 }
 
-menu > .link {
+.header .link {
   padding: 24px 0;
 }
 

@@ -169,6 +169,10 @@ footer .logo {
   display: inline-block;
 }
 
+.footer .container {
+  display: block;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;

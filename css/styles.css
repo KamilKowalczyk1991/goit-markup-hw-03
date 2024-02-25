@@ -97,6 +97,10 @@ img {
   padding: 0;
 }
 
+.benefits-card {
+  width: calc((100% - 72px) / 4);
+}
+
 .our-team {
   background: #f4f4fd;
 
